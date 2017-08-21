@@ -1,0 +1,24 @@
+{
+  "name": "ambiente",
+  "version": "1.0.0",
+  "description": "Ambient LED lightning controlled by SpaceAPI",
+  "scripts": {
+    "install": "semistandard",
+    "start": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/c3d2/ambiente.git"
+  },
+  "author": "Astro <astro@spaceboyz.net>",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/c3d2/ambiente/issues"
+  },
+  "homepage": "https://github.com/c3d2/ambiente",
+  "dependencies": {
+    "node-fetch": "^1.7.2",
+    "semistandard": "^11.0.0"
+  }
+}
